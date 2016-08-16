@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.vighnesh.zeal.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/zeal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:scaleType="fitXY"
+        android:adjustViewBounce="true"
+        android:text="Zeal welcomes you to the world of innovation. Looking for the perfect greeting cards to commemorate birthdays, anniversaries, and any other Special occassion? Well then.. Don't settle for something dull and forgettable from the departmental store. Instead give a friend or loved one a thoughtful greeting card that they will want to put on display, Something that features your own words and photos. That's where Zeal comes in !"/>
+    </LinearLayout>
+
